@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    overflow-x:auto;
+    overflow-y:hidden;
+    perspective: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-2d;
+    z-index: -1;
+}
+.background
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1 ;
+}
+h1{
+    position: absolute;
+    top:7rem;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:8rem;
+    letter-spacing: 3px;
+    color:white;
+    text-shadow:0,0,10px rgba(0,0,0,0.3);  
+
+}
+section{
+    background-color: rgb(45,45,45);
+    color: white;
+    padding: 5rem 0;
+}
+.secHeading{
+    font-size: 5rem;
+    padding: 0 10rpm;
+}
+.text{
+    font-size:1.5rpm;
+    padding: 0 10rpm;
+    margin:5rpm 0;
+}
+.bg{
+    position: relative;
+    width:100%;
+    background-attachment: fixed;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+.desc{
+    position: absolute;
+    background-color: white;
+    padding:0.5rem 2.5rem;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translate(-50%);
+    color: black;
+    font-size:3.5rpm;
+    font-weight:600;
+}
+.bg1{
+    background-image:url(b.jpg);
+
+}
+.bg2{
+    background-image: url(gliding.jpg);
+
+}
+.bg3{
+    background-image: url(surfing.jpg);
+}
+.bg4{
+    background-image: url(Trekking.webp);
+}
+.bg5{
+    background-image: url(r.jpg);
+}
+ 
